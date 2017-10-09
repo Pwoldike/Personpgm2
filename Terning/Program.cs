@@ -10,24 +10,18 @@ namespace Terning
     {
         static void Main(string[] args)
         {
-            Terning t = new Terning();
-            t.Skriv();
-            Terning t2 = new Terning(6);
-            ////t2.Værdi = 2;
-            t2.Skriv();
+            //LudoTerning 1 = new LudoTerning();
+            Terning[] terninger = new Terning[4];
+            terninger[0] = new Terning();
+            terninger[1] = new LudoTerning();
+            terninger[2] = new LudoTerning();
+            terninger[3] = new Terning();
 
-            LudoTerning t1 = new LudoTerning();
-            t1.Skriv();
+            foreach (var item in terninger)
+            {
+                item.Skriv();
+            }
 
-            Console.WriteLine("Er terning en globus : " + t1.ErGlobus());
-            Console.WriteLine("Er terning en stjerne : " + t1.ErStjerne());
-
-            Terning t3 = new LudoTerning(5);
-            ////t3.Værdi = 5;
-            t3.Skriv();
-
-            ////Console.WriteLine("Er terning en globus : " +  t3.ErGlobus());
-            ////Console.WriteLine("Er terning en stjerne : " + t3.ErStjerne());
 
 
 
@@ -64,7 +58,7 @@ namespace Terning
 
         public void Ryst()
         {
-            this.Værdi = rnd.Next(1, 6);
+            this.Værdi = rnd.Next(1, 7);
         }
 
         public Terning()
@@ -95,6 +89,18 @@ namespace Terning
         }
         public override void Skriv()
         {
+            switch (Værdi)
+            {
+                case 3:
+                    Console.WriteLine("[S]");
+                    break;
+                case 5:
+                    Console.WriteLine("[G]");
+                    break;
+                default:
+                    base.Skriv();
+                    break;
+            }
             Console.WriteLine("(" + Værdi + ")");
         }
 

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning", "Terning\Terning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{90D5C046-1930-412A-BF4A-5A7A27EC3C2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPgm2", "ArrayPgm2\ArrayPgm2.csproj", "{8BBC0911-0E12-416B-AC55-D4157F999520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerningPgm2", "TerningPgm2\TerningPgm2.csproj", "{52183D1A-5FE2-469F-AC61-2F5F49CEBB5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{90D5C046-1930-412A-BF4A-5A7A27EC3C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D5C046-1930-412A-BF4A-5A7A27EC3C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D5C046-1930-412A-BF4A-5A7A27EC3C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBC0911-0E12-416B-AC55-D4157F999520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBC0911-0E12-416B-AC55-D4157F999520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBC0911-0E12-416B-AC55-D4157F999520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBC0911-0E12-416B-AC55-D4157F999520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52183D1A-5FE2-469F-AC61-2F5F49CEBB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52183D1A-5FE2-469F-AC61-2F5F49CEBB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52183D1A-5FE2-469F-AC61-2F5F49CEBB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52183D1A-5FE2-469F-AC61-2F5F49CEBB5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
